@@ -1,5 +1,9 @@
 /* Your Code Here */
-
+function createEmployeeRecord(){
+    let data = ["Gray", "Worm", "Security", 1]
+    return data;
+}
+testEmployee = new Array(createEmployeeRecord())
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
